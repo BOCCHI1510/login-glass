@@ -1,7 +1,11 @@
 
 #LOGGIN GLASS
 hello everyone
-https://i.pinimg.com/originals/c8/a0/7d/c8a07da11ebadf86f488b4bff6f570f4.gif
+![image](https://github.com/BOCCHI1510/login-glass/assets/161669478/44cac23c-d7d5-4a0a-97ab-fe71689a756d)
+Today I bring you a simple login with blur without js
+REMEMBER TO ENJOY LIFE
+![image](https://github.com/BOCCHI1510/login-glass/assets/161669478/08f2b389-9056-497d-9cee-9354910a4763)
+
 -------------------------------------------------------------------------------------------------------------------
 
 
