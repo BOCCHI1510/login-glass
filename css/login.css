@@ -1,0 +1,142 @@
+* {
+  font-family: "Quicksand", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url(../assets/fondo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.login {
+  width: 500px;
+  background: rgba(91, 91, 91, 0.25);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(8px);
+  padding: 3rem;
+  border-radius: 2rem;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 10px -5px 25px -15px rgba(0, 0, 0, 0.75);
+  gap: 1.5rem;
+}
+
+.login__title {
+  text-align: center;
+  color: white;
+  font-size: 2vw;
+  font-weight: 900;
+  letter-spacing: 3px;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 2rem;
+  padding: 0.7rem;
+  transition: 0.3s;
+}
+
+.input {
+  background: none;
+  outline: none;
+  border: none;
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+  color: white;
+}
+
+.input::-moz-placeholder {
+  color: white;
+  font-weight: 600;
+}
+
+.input::placeholder {
+  color: white;
+  font-weight: 600;
+}
+
+.form:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.options {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.options__content {
+  font-size: 1vw;
+  color: white;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.options__content:hover {
+  transform: scale(1.1);
+}
+
+.login__button {
+  background-color: white;
+  width: 100%;
+  border-radius: 2rem;
+  text-align: center;
+  color: black;
+  font-weight: 900;
+  font-size: 1.3vw;
+  padding: 0.6rem 0;
+  transition: 0.3s;
+}
+
+.login__button:hover {
+  transform: scale(1.1);
+}
+
+.resgister,
+.resgister--link {
+  font-size: 1vw;
+  color: white;
+  font-weight: 500;
+}
+
+.resgister--link {
+  font-weight: 900;
+}
+
+@media (max-width: 470px) {
+  .login {
+    width: 90%;
+    padding: 1rem;
+  }
+  .login__title {
+    font-size: 9vw;
+  }
+  .options__content,
+  .resgister--link,
+  .resgister {
+    font-size: 3.4vw;
+  }
+  .login__button {
+    font-size: 5vw;
+  }
+}/*# sourceMappingURL=login.css.map */
